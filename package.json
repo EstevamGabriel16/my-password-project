@@ -1,0 +1,23 @@
+{
+  "name": "my-password-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EstevamGabriel16/my-password-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EstevamGabriel16/my-password-project/issues"
+  },
+  "homepage": "https://github.com/EstevamGabriel16/my-password-project#readme",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}

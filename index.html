@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PassGuard</title>
+</head>
+
+<body>
+    <header>
+        <h1>Gerenciador de Senhas</h1>
+    </header>
+
+    <main>
+        <form id="password-form">
+            <div>
+                <label for="site">Site/Serviço:</label>
+                <input type="text" id="site" placeholder="Nome do site/serviço" required>
+            </div>
+
+            <div>
+                <label for="password">Senha:</label>
+                <input type="password" id="password" placeholder="Senha" required>
+            </div>
+
+            <button type="submit">Salvar Senha</button>
+
+        </form>
+
+        <section>
+            <h2>Senhas Salvas</h2>
+            <ul id="password-list"></ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2025 Meu Gerenciador de Senhas.</p>
+    </footer>
+</body>
+
+</html>
